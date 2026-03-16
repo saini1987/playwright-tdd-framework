@@ -1,24 +1,98 @@
 {
-    "app": {
-        "baseUrl": "https://accounts.creatio.com/login/alm",
-        "title": "Log in | Creatio",
-        "username": "saini1987deepak@gmail.com",
-        "password": "Reema@1994"
+    "QA": {
+        "app": {
+            "baseUrl": "https://accounts.creatio.com/login/alm",
+            "title": "Log in | Creatio",
+            "username": "saini1987deepak@gmail.com",
+            "password": "Reema@1994"
+        },
+        "db": {
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "password",
+            "database": "mydb"
+        },
+        "api": {
+            "baseUrl": "https://jsonplaceholder.typicode.com/",
+            "tokens": "your_api_token_here"
+        },
+        "ollama": {
+            "baseUrl": "https://ollama.com/",
+            "endpoint": "/post",
+            "tokens": "your_ollama_token_here"
+        }
     },
-    "db": {
-        "host": "localhost",
-        "port": 5432,
-        "username": "postgres",
-        "password": "password",
-        "database": "mydb"
+    "DEV": {
+        "app": {
+            "baseUrl": "https://accounts.creatio.com/login/alm",
+            "title": "Log in | Creatio",
+            "username": "saini1987deepak@gmail.com",
+            "password": "Reema@1994"
+        },
+        "db": {
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "password",
+            "database": "mydb"
+        },
+        "api": {
+            "baseUrl": "https://jsonplaceholder.typicode.com/",
+            "tokens": "your_api_token_here"
+        },
+        "ollama": {
+            "baseUrl": "https://ollama.com/",
+            "endpoint": "/post",
+            "tokens": "your_ollama_token_here"
+        }
     },
-    "api": {
-        "baseUrl": "https://jsonplaceholder.typicode.com/",
-        "tokens": "your_api_token_here"
+    "UAT": {
+        "app": {
+            "baseUrl": "https://accounts.creatio.com/login/alm",
+            "title": "Log in | Creatio",
+            "username": "saini1987deepak@gmail.com",
+            "password": "Reema@1994"
+        },
+        "db": {
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "password",
+            "database": "mydb"
+        },
+        "api": {
+            "baseUrl": "https://jsonplaceholder.typicode.com/",
+            "tokens": "your_api_token_here"
+        },
+        "ollama": {
+            "baseUrl": "https://ollama.com/",
+            "endpoint": "/post",
+            "tokens": "your_ollama_token_here"
+        }
     },
-    "ollama": {
-        "baseUrl": "https://ollama.com/",
-        "endpoint": "/post",
-        "tokens": "your_ollama_token_here"
+    "PROD": {
+        "app": {
+            "baseUrl": "https://accounts.creatio.com/login/alm",
+            "title": "Log in | Creatio",
+            "username": "saini1987deepak@gmail.com",
+            "password": "Reema@1994"
+        },
+        "db": {
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "password",
+            "database": "mydb"
+        },
+        "api": {
+            "baseUrl": "https://jsonplaceholder.typicode.com/",
+            "tokens": "your_api_token_here"
+        },
+        "ollama": {
+            "baseUrl": "https://ollama.com/",
+            "endpoint": "/post",
+            "tokens": "your_ollama_token_here"
+        }
     }
 }
