@@ -13,12 +13,12 @@ export class LoginPageSteps{
 
     // Method to verify login page is displayed
     async verifyLoginPageIsDisplayed(){
-        await this.web.isElementVisible(loginpage.loginHeader);
+        await this.web.isElementVisible(loginpage.loginPageHeader);
     }
     // Method to perform login action
     async performLogin(username: string, password: string){
-        await this.web.typeText(loginpage.emailInput, username);
-        await this.web.typeText(loginpage.passwordInput, password);
-        await this.web.clickElement(loginpage.loginBtn);
+        await this.web.typeText(loginpage.businessEmailTextBox, username);
+        await this.web.typeText(loginpage.passwordTextBox, password);
+        await this.web.clickElement(loginpage.loginButton);
     }
 }

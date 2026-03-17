@@ -1,0 +1,4 @@
+{
+    "applicationHubLink": "span:text-is('Application Hub')",
+    "userLink": "span:text-is('Users')"
+}

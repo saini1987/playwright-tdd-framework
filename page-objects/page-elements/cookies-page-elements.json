@@ -6,10 +6,10 @@
     "denyBtn": "button#CybotCookiebotDialogBodyButtonDecline",
     "creaioLogo": "img#CybotCookiebotDialogPoweredbyImage",
     "cookiesBotLogo": "a#CybotCookiebotDialogPoweredbyCybot",
-    "necessaryCookiesCheckbox": "div>input#CybotCookiebotDialogBodyLevelButtonNecessary",
-    "preferencesCookiesCheckbox": "div>input#CybotCookiebotDialogBodyLevelButtonPreferences",
-    "statisticsCookiesCheckbox": "div>input#CybotCookiebotDialogBodyLevelButtonStatistics",
-    "marketingCookiesCheckbox": "div>input#CybotCookiebotDialogBodyLevelButtonMarketing",
+    "necessarySwitchBtn": "div>input#CybotCookiebotDialogBodyLevelButtonNecessary",
+    "preferencesSwitchBtn": "div>input#CybotCookiebotDialogBodyLevelButtonPreferences",
+    "statisticsSwitchBtn": "div>input#CybotCookiebotDialogBodyLevelButtonStatistics",
+    "marketingSwitchBtn": "div>input#CybotCookiebotDialogBodyLevelButtonMarketing",
     "showDetailsLink": "a#CybotCookiebotDialogBodyEdgeMoreDetailsLinks",
     "cookiePopupExpandedView": "a#CybotCookiebotDialogNavDetails"
 }
