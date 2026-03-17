@@ -1,0 +1,11 @@
+{
+    "loginHeader": "//span[text()='LOG IN TO YOUR ACCOUNT']",
+    "emailInput": "//input[@aria-label='Business email']",
+    "forgotPasswordLink": "a.forgot-password-link",
+    "forgotPasswordConfirmationMessage": "//span[text()='Almost done!']",
+    "passwordInput": "//input[@aria-label='Password']",
+    "loginBtn": ".btn-reversible-content.button-content-align-center",
+    "loginErrorMessage": "//div[contains(text(),'Invalid email or password')]",
+    "linkedIcon": "img.icon-LinkedIn",
+    "googleIcon": "img.icon-Google"
+}
